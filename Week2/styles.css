@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(121, 198, 224);
+    color: forestgreen;
+}
+
+header{
+    color: blueviolet;
+}
+
+p{
+    color: rgb(172, 20, 20);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
