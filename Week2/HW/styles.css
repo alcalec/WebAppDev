@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(99, 189, 232);
+    color: rgb(30, 30, 219);
+}
+
+header{
+    color: rgb(149, 62, 230);
+}
+
+p{
+    color: rgb(189, 11, 29);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link{
+    color:forestgreen;
+}
+
+a:visited{
+    color:hotpink;
+}
+
+footer p{
+    color:black;
+}
+
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
