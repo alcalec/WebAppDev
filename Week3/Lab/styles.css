@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(121, 198, 224);
+    color: forestgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    color: blueviolet;
+    font-size:33px;
+}
+
+p{
+    color: rgb(172, 20, 20);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* This will change the color of a visited website link */
+a:visited{
+    color:yellowgreen;
+}
+
+/* This will change the color and font size of a link that is being hovered */
+a:hover{
+    color:orange;
+    font-size:13px;
+}
+
+/* This ID centers and italicizes the main header of the page */
+#main-header{
+    text-align:center;
+    font-style:italic;
+}
+
+/* This class highlights certain headings */
+.highlight{
+    color:cyan;
+    font-weight:lighter;
+}
+
+/* This class creates a border around text and gives it color */
+.section-box{
+    margin: 20px;
+    padding: 1px;
+    border: 2px dashed red;
+}
