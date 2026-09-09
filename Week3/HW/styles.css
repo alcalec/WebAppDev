@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(99, 189, 232);
+    color: rgb(30, 30, 219);
+}
+
+/* This gives the header a purple color */
+header{
+    color: rgb(149, 62, 230);
+}
+
+/* This p section styles every time the p tag is used  */
+p{
+    color: rgb(189, 11, 29);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link{
+    color:forestgreen;
+}
+
+/* This changes the hyper link hover design */
+a:hover{
+    color:rgb(205, 66, 20);
+    font-size:20px;
+}
+
+/* This changes the visited links to hotpink */
+a:visited{
+    color:hotpink;
+}
+
+/* This class highlights the navigation section */
+.highlight{
+    color:cyan;
+    font-weight:lighter;
+}
+
+/* This class seperates the different sections */
+.section-box{
+    margin:24px, 16px;
+    padding:8px, 12px, 16px;
+}
+
+/* This class creates a border around text and gives it color */
+.special-box{
+    margin: 20px;
+    padding: 1px;
+    border: 2px dashed rgb(20, 44, 184);
+}
+
+/* This class ID changes the footer for the about tab */
+#about-footer{
+    color:red;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+
+/* This class ID changes the footer for the favourites tab */
+#favourites-footer{
+    color:orange;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+
+/* This class ID changes the footer for the index tab */
+#index-footer{
+    color:black;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
