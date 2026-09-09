@@ -1,0 +1,14 @@
+/* Provides background color to the whole page */
+body{
+    background-color: rgb(215, 219, 223);
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+}
+
+.font-structure{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+}

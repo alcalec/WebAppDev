@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+}
+
+nav{
+    display: flex;
+    gap:20px;
+
+    /* Rather than adding margins to every item, gap creates consistent spacing between flex items */
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
