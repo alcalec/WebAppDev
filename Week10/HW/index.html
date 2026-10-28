@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dodgers</title>
+  <style>
+    /* You choose the class name */
+    .Highlight { background: dodgerblue; transition: background 200ms; }
+    .Dark { background:black; color:white; }
+    img { width: 400px; max-width: 100%; height:auto;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="title">Dodgers Page</h1>
+  </header>
+
+  <main id="main">
+    <p class="intro">Welcome! This is the Los Angeles Dodgers!</p>
+
+    <!-- List target you will render into -->
+    <ul id="list"></ul>
+
+    <!-- Image you will update -->
+    <img id="image" src="d2024.jpg" alt="2024 Champs" />
+
+    <p id="message">Welcome, Dodgers fans!</p>
+
+    <!-- Buttons you will wire up -->
+    <button id="highlight_button">Toggle Highlight</button>
+    <button id="image_button">Swap Image</button>
+  </main>
+
+  <footer id="footer">© 2026 Alec Alcocer</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
