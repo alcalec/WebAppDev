@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    background: bisque;
+    color: darkslategrey;
+    padding: 1rem;
+}
+
+/* The 'dark' theme we will toggle later */
+.dark {
+    background: darkslategrey;
+    color: bisque;
+}
