@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 12</title> <!-- Fill in: page title -->
+</head>
+<body style="background-color:aqua">
+  <h1>Contact</h1> <!-- Fill in: heading text -->
+
+  <form id="contact_form"> <!-- Give your form an id -->
+    <label for="name">Name:</label> <!-- Label text -->
+    <input id="name" type="text" placeholder="Your name" required />
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />
+
+    <label for="age">Age:</label>
+    <input id="age" type="number" min="0" max="110" />
+
+    <label for="message">Message:</label>
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+
+    <button type="submit">Submit...</button> <!-- Button type and text -->
+  </form>
+
+  <section id="display"></section> <!-- Section to display results -->
+
+  <script src="script.js"></script> <!-- JS file name -->
+</body>
+</html>
+
+<!-- Questions
+IDs are the way to identify labels and different tags
+We need to see all the code then refer to java after that base skeleton is in -->

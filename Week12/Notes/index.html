@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- Inputs go between both form tags
+        Text, we use this input for short text(Name, titles, etc) -->
+        <label for ="username">Name:</label>
+        <input id="username" type="text" placeholder="Enter your name"/>
+        <!-- Email, this input validates proper email format -->
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="you@email.com">
+        <br>
+        <!-- Number, we use this put type for numeric input(Age, quantity, year, etc) -->
+        <br>
+        <label for="age">Age:</label>
+        <input id="age" type="number" min="0" max="105"/>
+        <!-- Password, we use this type to mask the users password -->
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="password">
+        <!-- Textarea, use this for mulit line text -->
+         <br>
+         <label for="message">Message:</label>
+         <textarea id="message" rows="4" cols="30"></textarea>
+        <br>
+        <!-- Radio - this type is grouped by name attribute, can only choose one -->
+        <p>Fav Size: </p>
+        <label>
+            <input type="radio" name="size" value="small">
+            Small
+            <input type="radio" name="size" value="medium">
+            Medium
+        </label>
+        <!-- Checkbox- used for on/off options (can be multiple) -->
+         <label>
+            <input type="checkbox" id="subscribe"/>
+            subscribe to news letter
+            <br>
+            <input type="checkbox" id="no subscribe"/>
+            subscribe to news letter
+         </label>
+        <!-- Dropdown- this type creates dropdown list (One value selected) -->
+         <label for="color">Fav color? </label>
+         <select id="color">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="white">white</option>
+         </select>
+    </form>
+</body>
+</html>
