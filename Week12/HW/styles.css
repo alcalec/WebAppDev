@@ -1,0 +1,16 @@
+body{
+    background-color: ivory;
+}
+
+button {
+    background-color: firebrick;
+    color:white;
+    padding: 10px;
+    border: none;
+    border: radius 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
